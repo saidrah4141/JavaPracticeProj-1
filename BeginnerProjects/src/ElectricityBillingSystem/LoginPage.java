@@ -110,7 +110,7 @@ public class LoginPage extends Password {
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			checkLogin(pswrd.getText(), usrnm.getText());
-			SplashScreen pi = new SplashScreen();
+			MainPage pi = new MainPage();
 			
 			if (checkAccess()) {
 				pi.splashScreen.setVisible(true);
